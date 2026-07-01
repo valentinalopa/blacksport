@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — BLACK Sports</title>
+<meta name="description" content="Ready to turn your sporting ambition into operational reality? Get in touch with Black Sports.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <a href="index.html" class="nav-logo"><img src="images/logo.svg" alt="BLACK"></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="who-we-are.html">Who We Are</a></li>
+    <li><a href="what-we-do.html">What We Do</a></li>
+    <li><a href="where-we-are.html">Where We Are</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
+  </ul>
+  <div class="nav-lang">
+    <span class="active">EN</span><span>IT</span><span>AR</span>
+  </div>
+  <button class="nav-burger" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+
+<header class="page-hero" style="background-image:url('https://images.unsplash.com/photo-1495555687398-3f50d6e79e1e?q=80&w=2000'); min-height:380px;">
+  <h1 class="display">Let's Talk.</h1>
+</header>
+
+<section class="contact-hero-text">
+  <h2 class="display">Ready to turn your sporting ambition into operational reality?</h2>
+</section>
+
+<section class="contact-form-section">
+  <form class="form-grid" onsubmit="event.preventDefault(); alert('Message sent. We will be in touch shortly.');">
+    <div class="form-field">
+      <label for="fullname">Full Name</label>
+      <input type="text" id="fullname" name="fullname" required>
+    </div>
+    <div class="form-field">
+      <label for="org">Organisation</label>
+      <input type="text" id="org" name="org">
+    </div>
+    <div class="form-field">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-field">
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone">
+    </div>
+    <div class="form-field full">
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject">
+    </div>
+    <div class="form-field full">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+    </div>
+    <div class="form-field full">
+      <button type="submit" class="btn-solid">Send Message</button>
+    </div>
+  </form>
+</section>
+
+<section class="contact-info-strip">
+  <div>
+    <div class="label">Email</div>
+    <div class="value">info@blacksports.com</div>
+  </div>
+  <div>
+    <div class="label">LinkedIn</div>
+    <div class="value">linkedin.com/company/blacksports →</div>
+  </div>
+  <div>
+    <div class="label">Parent Group</div>
+    <div class="value">blackengineering.com →</div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-top">
+    <a href="index.html" class="footer-logo"><img src="images/logo.svg" alt="BLACK"></a>
+    <ul class="footer-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="who-we-are.html">Who We Are</a></li>
+      <li><a href="what-we-do.html">What We Do</a></li>
+      <li><a href="where-we-are.html">Where We Are</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="footer-lang">
+      <span class="active">EN</span><span>IT</span><span>AR</span>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2024 Black Sports. All rights reserved.</span>
+    <span>A Black Engineering Group Company</span>
+  </div>
+</footer>
+
+</body>
+</html>
